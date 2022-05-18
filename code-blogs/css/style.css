@@ -1,0 +1,342 @@
+*{
+
+    font-family: 'Gotham', sans-serif !important;  
+     margin:0;
+    padding:0;
+
+}
+
+a{
+
+    text-decoration: none;
+
+    color: #000;
+
+}
+
+
+
+.menu{
+
+    width: 100%;
+
+    background-color: #fff;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 10px;
+
+    position: fixed;
+
+    top: 0;
+
+    z-index: 99;
+
+   
+
+    
+
+}
+
+.menu-content{
+
+    width: 1200px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center; height: 70px;align-items: center;
+
+}
+
+.menu_logo{
+
+   
+
+    display: flex;
+
+    height: 50px;
+
+    align-items: center;
+
+}
+
+.menu_logo img{
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+}
+
+.menu_logo p {
+
+    margin-left: 20px;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+}
+
+.list-menu li{
+
+    display: block;
+
+    
+
+    display: inline-block;
+
+    
+
+
+
+}
+
+.list-menu li a{
+
+    font-size: 15px;padding: 10px 10px;
+
+}
+
+.list-menu li a:hover{
+
+    background-color: rgba(0,0,0,0.1);
+
+    border-radius: 10px;
+
+}
+
+.banner{
+
+    width: 1200px;
+
+    margin: 0 auto;
+
+    margin-top: 70px
+
+}
+
+.banner img{
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    filter: blur(3px);
+
+
+
+}
+
+.banner-content{
+
+    position: absolute;
+
+    width: 700px;
+
+    margin-top: -150px;
+
+    margin-left: 220px;
+
+    padding: 20px;
+
+    border: 1px solid #000;
+
+    border-radius: 20px;
+
+    background-color: #000;
+
+    color: #fff;
+
+}
+
+.main-content{
+
+    width: 750px;
+
+    margin: 0 auto;
+
+}
+
+.main{
+
+    margin-top: 40px;
+
+}
+
+.main-items2{
+
+    width: 100%;
+
+    
+
+   
+
+ 
+
+   
+
+    margin-top: 20px;
+
+    display: block;
+
+}
+
+.main-items{
+
+    width: 100%;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 10px;
+
+    margin-top: 20px;
+
+}
+
+.main-items:hover{
+
+    border: 1px solid red;
+
+}
+
+.main-items-title{
+
+    font-size: 30px;
+
+    font-weight: 600;
+
+}
+
+.main-items-title:hover{
+
+    color: red;
+
+}
+
+.main-items-content{
+
+    display: flex;
+
+    margin-top: 20px;
+
+    justify-content: space-between;
+
+}
+
+.main-items-pic{
+
+    width: 130px;
+
+    height: 100px;
+
+}
+
+.main-items-pic img{
+
+    width: 100%;
+
+    height: 100%;
+
+    border-radius: 10px;
+
+}
+
+.main-items-text{
+
+    width: 600px;
+
+    text-align: justify;
+
+    line-height: 0.8cm;
+
+}
+
+.footer{
+
+    background-color: #000;
+
+    margin-top: 20px;
+
+}
+
+.footer-content{
+
+    width: 1200px;
+
+    margin: 0 auto;
+
+    min-height: 50px;
+
+    color: #fff;
+
+    padding-top: 20px;
+
+    
+
+}
+
+.clear{
+
+    clear: both;
+
+}
+
+.item-noidung{
+
+    width: 100% !important;
+
+}
+.item-noidung ul{
+
+    margin-left:20px;
+
+}
+
+
+
+.item-noidung img{
+
+    width: auto !important;
+
+   margin-left: 10%;
+
+   margin-top: 10px;
+
+   max-width: 100% !important;
+
+    
+
+}
+
+.main-content2{
+
+    width: 1000px;
+
+    margin: 0 auto;
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    border-radius: 10px;
+    padding:20px;
+    font-size:20px;
+
+}
