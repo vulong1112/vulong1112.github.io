@@ -10,27 +10,8 @@
 					$tam = '';
 					$query = '';
 				}
-				if($tam=='quanlydanhmucsanpham' && $query=='them'){
-					include("modules/quanlydanhmucsp/them.php");
-					include("modules/quanlydanhmucsp/lietke.php");
-
-				}elseif ($tam=='quanlydanhmucsanpham' && $query=='sua') {
-					include("modules/quanlydanhmucsp/sua.php");
-
-				}elseif ($tam=='quanlysp' && $query=='them') {
-					include("modules/quanlysp/them.php");
-					include("modules/quanlysp/lietke.php");
-
-				}elseif($tam=='quanlysp' && $query=='sua'){
-					include("modules/quanlysp/sua.php");
-
-				}elseif($tam=='quanlydonhang' && $query=='lietke'){
-					include("modules/quanlydonhang/lietke.php");
-
-				}elseif($tam=='donhang' && $query=='xemdonhang'){
-					include("modules/quanlydonhang/xemdonhang.php");
-
-				}elseif($tam=='quanlydanhmucbaiviet' && $query=='them'){
+				
+				}if($tam=='quanlydanhmucbaiviet' && $query=='them'){
 					include("modules/quanlydanhmucbaiviet/them.php");
 					include("modules/quanlydanhmucbaiviet/lietke.php");
 
@@ -44,9 +25,6 @@
 				}elseif($tam=='quanlybaiviet' && $query=='sua'){
 					include("modules/quanlybaiviet/sua.php");
 				}
-				elseif($tam=='quanlyweb' && $query=='capnhat'){
-					include("modules/thongtinweb/quanly.php");
-				}
 				
 				else{
 					include("modules/dashboard.php");
@@ -54,3 +32,4 @@
 	?> 
 	
 </div>
+// update  by thuong
