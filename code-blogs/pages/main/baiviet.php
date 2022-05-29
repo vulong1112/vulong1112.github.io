@@ -2,7 +2,7 @@
 	$sql_bv = "SELECT * FROM tbl_baiviet WHERE tbl_baiviet.id='$_GET[id]' LIMIT 1";
 	$query_bv = mysqli_query($mysqli,$sql_bv);
     $query_bv_all = mysqli_query($mysqli,$sql_bv);
-	//get ten danh muc
+	//lay ten danh muc
 	
 	$row_bv_title = mysqli_fetch_array($query_bv);
 ?>
