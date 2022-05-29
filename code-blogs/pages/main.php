@@ -6,8 +6,6 @@
 				}else{
 					$tam = '';
 				}
-				if($tam=='danhmucsanpham'){
-					include("main/danhmuc.php");
 
 				}
 				elseif($tam=='danhmucbaiviet'){
