@@ -2,8 +2,11 @@
             <div class="menu-content">
             <div class="menu_logo">
                 <a href="index.php?quanly=trangchu">
-                <img src="./img/Logo_PTIT_University.png" alt="logo"></a>
-                <p>Học viện Công nghệ Bưu chính Viễn thông</p>
+                <img src="./img/ptit-logo.png" alt="logo" width="300" height="200"></a>
+               <div>
+                <div> HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG </div> 
+                <div style="color:Tomato;"> Posts and Telecommunications Institute of Technology  </div>
+                </div>
             </div>
             <ul class="list-menu">
             <?php
