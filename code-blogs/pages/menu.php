@@ -2,7 +2,7 @@
             <div class="menu-content">
             <div class="menu_logo">
                 <a href="index.php?quanly=trangchu">
-                <img src="./img/ptit-logo.png" alt="logo" width="300" height="200"></a>
+                <img src="https://qldt.ptit.edu.vn/MessageFile/242794Logo2.gif" alt="logo" width="300" height="200"></a>
                <div>
                 <div> HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG </div> 
                 <div style="color:Tomato;"> Posts and Telecommunications Institute of Technology  </div>
