@@ -3,7 +3,7 @@
 <?php
 	$sql_bv = "SELECT * FROM tbl_baiviet WHERE tinhtrang=1 ORDER BY id DESC";
 	$query_bv = mysqli_query($mysqli,$sql_bv);
-	
+	// update by thuong
 ?>
 <div class="main">
 <div class="main-content">
